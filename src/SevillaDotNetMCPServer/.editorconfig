@@ -1,0 +1,10 @@
+﻿[*.cs]
+
+# CS8603: Possible null reference return.
+dotnet_diagnostic.CS8603.severity = silent
+
+# IDE0022: Use block body for method
+dotnet_diagnostic.IDE0022.severity = silent
+
+# IDE0320: Make anonymous function static
+dotnet_diagnostic.IDE0320.severity = silent
