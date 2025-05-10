@@ -7,7 +7,7 @@ Console.WriteLine("=========================================");
 
 try
 {
-    Console.WriteLine("Introduce your Azure MCP Server project path:");
+    Console.WriteLine("Introduce your SevillaDotNet MCP Server project path:");
     var projectPath = Console.ReadLine();
 
     if (string.IsNullOrEmpty(projectPath))
@@ -54,7 +54,7 @@ try
         // Retrieve the list of available tools from the server
         Console.WriteLine("Fetching available tools...");
         IList<McpClientTool> tools = await client.ListToolsAsync(null, cts.Token);
-
+    
         Console.WriteLine($"🔧 {tools.Count} tools found:");
 
         foreach (McpClientTool tool in tools)
