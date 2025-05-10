@@ -11,6 +11,11 @@ These examples provide a solid foundation for those interested in exploring MCP 
 
 ![Banner](images/banner.png)
 
+### Related projects:
+
+* Mobile Development MCP: https://github.com/jsuarezruiz/mobile-dev-mcp-server
+* .NET MAUI Graphics MCP: https://github.com/jsuarezruiz/maui-graphics-mcp-server
+
 ### Resources
 
 * Event reference: https://www.meetup.com/sevilladotnet/events/307691904
